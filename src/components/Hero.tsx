@@ -15,7 +15,7 @@ const Hero = () => {
       <div className="relative z-10 container mx-auto px-4 py-20 text-center">
         <div className="animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-            Xin chào, Tôi là [Tên của bạn]
+            Xin chào, Tôi là Trần Minh Trí
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
             Kết nối với tôi qua các mạng xã hội
