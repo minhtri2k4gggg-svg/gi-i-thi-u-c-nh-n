@@ -6,7 +6,7 @@ const socialLinks = [
   {
     name: "Facebook",
     icon: Facebook,
-    url: "https://facebook.com",
+    url: "https://www.facebook.com/tranminhhtri311/",
     color: "hover:text-[#1877F2]",
   },
   {
