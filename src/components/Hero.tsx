@@ -1,12 +1,6 @@
-import { Button } from "@/components/ui/button";
-import { ArrowDown } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const Hero = () => {
-  const scrollToAbout = () => {
-    document.getElementById("about")?.scrollIntoView({ behavior: "smooth" });
-  };
-
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
@@ -24,22 +18,9 @@ const Hero = () => {
             Xin chào, Tôi là [Tên của bạn]
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Đam mê sáng tạo và phát triển những điều tuyệt vời
+            Kết nối với tôi qua các mạng xã hội
           </p>
-          <Button 
-            onClick={scrollToAbout}
-            size="lg"
-            className="group shadow-lg hover:shadow-xl transition-all"
-          >
-            Khám phá thêm
-            <ArrowDown className="ml-2 h-4 w-4 group-hover:translate-y-1 transition-transform" />
-          </Button>
         </div>
-      </div>
-
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-        <ArrowDown className="h-6 w-6 text-muted-foreground" />
       </div>
     </section>
   );
