@@ -1,15 +1,8 @@
-import heroBg from "@/assets/hero-bg.jpg";
-
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image with Overlay */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroBg})` }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-background/80 to-accent/20" />
-      </div>
+      {/* Gradient Background */}
+      <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-background to-accent/10" />
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 py-20 text-center">

@@ -112,7 +112,30 @@ All colors MUST be HSL.
     @apply border-border;
   }
 
-  body {
-    @apply bg-background text-foreground;
+body {
+  @apply bg-background text-foreground;
+  overflow-x: hidden;
+}
+
+/* Snow Animation */
+.snowflake {
+  position: fixed;
+  top: -10px;
+  z-index: 9999;
+  user-select: none;
+  cursor: default;
+  animation: snowfall linear infinite;
+  color: hsl(var(--primary));
+  opacity: 0.8;
+  font-size: 1em;
+}
+
+@keyframes snowfall {
+  0% {
+    transform: translateY(0) rotate(0deg);
   }
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+  }
+}
 }
