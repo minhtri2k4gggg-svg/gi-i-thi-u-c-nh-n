@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Facebook, Instagram, Linkedin, Github, Mail, Twitter } from "lucide-react";
+import { Facebook, Instagram, Mail } from "lucide-react";
 
 const socialLinks = [
   {
@@ -16,27 +16,9 @@ const socialLinks = [
     color: "hover:text-[#E4405F]",
   },
   {
-    name: "LinkedIn",
-    icon: Linkedin,
-    url: "https://linkedin.com",
-    color: "hover:text-[#0A66C2]",
-  },
-  {
-    name: "GitHub",
-    icon: Github,
-    url: "https://github.com",
-    color: "hover:text-foreground",
-  },
-  {
-    name: "Twitter",
-    icon: Twitter,
-    url: "https://twitter.com",
-    color: "hover:text-[#1DA1F2]",
-  },
-  {
     name: "Email",
     icon: Mail,
-    url: "mailto:your.minhtri2k4gggg@gmail.com",
+    url: "mailto:minhtri2k4gggg@gmail.com",
     color: "hover:text-accent",
   },
 ];
